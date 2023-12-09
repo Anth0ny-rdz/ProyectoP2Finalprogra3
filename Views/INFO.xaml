@@ -11,7 +11,7 @@
                 VerticalOptions="Center" 
                 HorizontalOptions="Center"
                 FontFamily="Lobster"
-                TextColor="White">
+                TextColor="Black">
                 <Label.FormattedText>
                     <FormattedString>
                         <Span Text="En Tuki Hotel, aspiramos a ser más que un simple lugar para alojarse; nos esforzamos por ser la experiencia definitiva que convierte cada estancia en un recuerdo inolvidable. " FontAttributes="Italic"/>
@@ -30,8 +30,8 @@
             <HorizontalStackLayout Margin="40">
 
                 <Image Source="habitacion.jpg"
-                       WidthRequest="200"
-                       HeightRequest="200" />
+                       Aspect="AspectFill"
+                Opacity="0.3"/>
             </HorizontalStackLayout>
             <Image
                 Source="tuki.jpg"
